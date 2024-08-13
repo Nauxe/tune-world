@@ -1,4 +1,5 @@
 #include "display.h"
+
 #include <SDL2/SDL_events.h>
 #include <stdio.h>
 
