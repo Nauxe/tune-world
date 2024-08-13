@@ -4,7 +4,7 @@
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_video.h>
 
-bool display::init(int screen_width, int screen_height) {
+bool display::init() {
   if (SDL_Init(SDL_INIT_VIDEO) < 0) {
     printf("SDL could not initialize! SDL Error: %s\n", SDL_GetError());
     return false;

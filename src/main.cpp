@@ -5,8 +5,8 @@
 int main() {
   printf("hello world!");
 
-  display disp;
-  if (!disp.init(640, 480)) {
+  display disp = display(640, 480);
+  if (!disp.init()) {
     printf("Failed to initalize display!");
   }
 
